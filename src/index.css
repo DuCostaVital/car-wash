@@ -21,16 +21,16 @@ h1{
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 530px;
+  width: 550px;
 }
 
 input{
-  width:  150px;
-  height: 20px;
+  width: 200px;
+  height: 40px;
   border: none;
   border: 1px solid #A8A8B3;
-  padding: 6px;
   border-radius: 3px;
+  padding-left: 10px;
 }
 
 .input-container{
@@ -39,27 +39,62 @@ input{
 }
 
 .button{
-  width: 511px;
+  width: 580px;
   background: #373737;
   color: white;
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 15px;
-  height: 20px;
-  padding: 6px;
+  height: 40px;
   border-radius: 3px;
   font-family: "Roboto";
+  align-items: center;
 }
 
 .hr{
   background-color:  #2A166F;
-  height: 2px;
-  width: 511px;
+  height: 1px;
+  width: 105%;
   margin: auto;
   margin-top: 20px;
- 
+ }
 
+ h2{
+   font-family: 'Poppins' ;
+   color:#E73F5D;
+ }
+
+h3{
+  color: #27AAE1;
+  font-family: 'Poppins';
+  font-size: 20px;
+  
+}
+
+.car-container{
+
+  width: 800px;
+  margin:auto;
+}
+
+ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+.liberar{
+  font-family: 'Poppins';
+  font-size: 20px; 
+  color: #00891E;
+  margin-left: 15px;
 }
 
 
