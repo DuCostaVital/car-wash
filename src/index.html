@@ -8,21 +8,27 @@
   </head>
   <body>
    <img src="img/logo.png" alt="">
-
+   <!--Titulo estacionamento do lavas-->
    <h1>Estacionamento do lava jato</h1>
-   <div class="main-container">
-    <div class="input-container">
 
-      <input type="text" placeholder="Veículo">
-      <input type="text" placeholder="Placa">
-      <input type="text" placeholder="Dono">
+   <!--Div principal-->
+   <div class="main-container">
+
+    <!--Div dos inputs-->
+    <div class="input-container">
+      <input class="input-veiculo" type="text" placeholder="Veículo">
+      <input class="input-placa" type="text" placeholder="Placa">
+      <input class="input-dono" type="text" placeholder="Dono">
     </div>
     
-    <div class="button">
+    <!--Botão guardar veiculo-->
+    <div class="button" onclick="adicionarCarro()">
       <i class="fa-solid fa-car"></i>
       Guardar veiculo
     </div>
     <div class="hr"></div>
+
+    <!--Subtitulo Veiculos estacionados-->
     <h2>Veículos estacionados</h2>
     </div>
     
@@ -30,13 +36,12 @@
      
    </div>
    </div>
+
+   <!--Lista de carros-->
    <ul>
-    <li>
-    <h3>Veículo: BMW X1 | Placa: PIA2A19 | Dono: Kaique</h3> 
-    <a class="liberar">Liberar</a>
-    </li>
   </ul>
-   
+
+  <!--Linkando javascript--> 
    <script src="./script.js"></script>
 
   </body>

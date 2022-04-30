@@ -50,6 +50,7 @@ input{
   border-radius: 3px;
   font-family: "Roboto";
   align-items: center;
+  cursor: pointer;
 }
 
 .hr{
@@ -80,6 +81,7 @@ h3{
 
 ul{
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   }
@@ -95,7 +97,11 @@ ul{
   font-size: 20px; 
   color: #00891E;
   margin-left: 15px;
+  cursor: pointer;
 }
+
+
+
 
 
 
