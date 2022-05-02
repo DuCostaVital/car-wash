@@ -10,6 +10,7 @@ if (require('electron-squirrel-startup')) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    icon: path.resolve(__dirname, 'img', 'logo.png'),
     width: 800,
     height: 600,
   });
